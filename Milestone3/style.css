@@ -1,0 +1,94 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+ background-color: black;
+    
+    
+}
+h1{
+    text-align: center;
+    color: rgb(8, 23, 233);
+    font-size: 90px;
+    font-family: "Playwrite CU", cursive;
+    margin-top: 10px;
+    
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #99FF99
+    ;
+    border-radius: 8px;
+    box-shadow: 0px 8px rgb(0,0,0.5);
+    padding: 20px;
+}
+fieldset{
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 20px ;
+        margin-bottom: 20px;
+        background-color: rgb(192, 142, 222);
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: blue;
+
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #061fdc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:  rgb(215, 6, 170);
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    
+}
+button:hover{
+    background-color: rgba(231, 14, 173, 0.649);
+ 
+}
+.img ,.name{
+    justify-content: center;
+    display: flex;
+   
+}
+.name{
+    color: rgb(191, 6, 182);
+    font-size: 20px;
+    font-family: "Playwrite CU", cursive;
+
+}
+education,textarea{
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    border: 1px solid #061fdc;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #061fdc;
+    border-radius: 10px;
+    background-color: rgb(4, 248, 248);
+    box-shadow: 0 4px 8px rgba(0,0,0,5);
+}
+#resume-display h2{
+     color: #061fdc;
+     
+}
